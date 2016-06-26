@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TrainingDataParser">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAUABAAACAAAAAGQABAAEAAAAAAAQABAAAAAAAAAAA=</HashCode>
+      <FileName>TrainingDataParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACABAAAAAAAgAACAAABgAAAIgoQCCQAAAgAAAAg=</HashCode>
+      <FileName>server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConnectSQL">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAABAAAAAEAZAAAABACIAAAAgAAAAIABEAAAAA=</HashCode>
+      <FileName>connectSQL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::AdaBoost">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GRT::AdaBoost::PredictionMethods" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GRT\ClassificationModules\AdaBoost\AdaBoost.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <InheritanceLine Type="GRT::Classifier" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="0.5" />
+        <Point X="10" Y="0.26" />
+        <Point X="11.938" Y="0.26" />
+        <Point X="11.938" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IEAgAIABIACAICAAAAgQBBACYAAAAAjAAAEgAAAIABA=</HashCode>
+      <FileName>GRT\ClassificationModules\AdaBoost\AdaBoost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::DTW">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GRT::DTW::DistanceMethods" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GRT\ClassificationModules\DTW\DTW.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="GRT::DTW::RejectionModes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GRT\ClassificationModules\DTW\DTW.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <InheritanceLine Type="GRT::Classifier" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="0.5" />
+        <Point X="10" Y="0.26" />
+        <Point X="15.938" Y="0.26" />
+        <Point X="15.938" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>g2QICIFkKAUEsEQAwgkARFYAQgAAgEhEAIEwCAxQBDQ=</HashCode>
+      <FileName>GRT\ClassificationModules\DTW\DTW.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::Classifier">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="GRT::Classifier::StringClassifierMap" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GRT\CoreModules\Classifier.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Enum Name="GRT::Classifier::ClassifierModes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GRT\CoreModules\Classifier.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AlKQEhKcAICAgDgIAAGAoHggFAwBAAEApiAEAAo8Ahk=</HashCode>
+      <FileName>GRT\CoreModules\Classifier.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::TimeSeriesClassificationSampleTrimmer">
+    <Position X="13" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACAAAAAAACAAAAAAAAAIAAgAABBAAAAAgCAAAAAA=</HashCode>
+      <FileName>GRT\Util\TimeSeriesClassificationSampleTrimmer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::MLBase">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GRT::MLBase::BaseTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GRT\Util\Observer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <InheritanceLine Type="GRT::Observer&lt;NotifyType&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1" />
+        <Point X="6.875" Y="1" />
+        <Point X="6.875" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="GRT::Observer&lt;NotifyType&gt;" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.5" />
+        <Point X="6.792" Y="1.5" Type="JumpStart" />
+        <Point X="6.958" Y="1.5" Type="JumpEnd" />
+        <Point X="7.688" Y="1.5" />
+        <Point X="7.688" Y="1.75" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.09" Y="0.625" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>PcSQEuCkYIChACkSAApACAAycLoUBQkKhAZgiCIMhEs=</HashCode>
+      <FileName>GRT\CoreModules\MLBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::GRTBase">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAgIDCQAAAAAAAAAoIAAAAEBAAAQAAACAAAAUA=</HashCode>
+      <FileName>GRT\CoreModules\GRTBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::Observer&lt;NotifyType&gt;">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAAACAA=</HashCode>
+      <FileName>GRT\Util\Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::UnlabelledData">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DECSAWQwAMiAEMAgACEACAIKgAEBBAIAAEE0CCBcFAI=</HashCode>
+      <FileName>GRT\DataStructures\UnlabelledData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::ClassificationData">
+    <Position X="4.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>jEACIWVQCMiQMMIkACEAiAAKinUBIDIDAkV0CiBcHAo=</HashCode>
+      <FileName>GRT\DataStructures\ClassificationData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::RegressionData">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jEATAGUQAOiAEMAkACAACAIigKETBAIAEEE2CCBQFII=</HashCode>
+      <FileName>GRT\DataStructures\RegressionData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::TimeSeriesClassificationData">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DEACIWUQAMiAEMAkACEAiAIKikEBJBABAkU0CCBcHAI=</HashCode>
+      <FileName>GRT\DataStructures\TimeSeriesClassificationData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::TimeSeriesClassificationDataStream">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEACIeEQAMiAEEgkAAEQiAJKgkGBJBABEgQ0CCAcBAo=</HashCode>
+      <FileName>GRT\DataStructures\TimeSeriesClassificationDataStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::IndexDist">
+    <Position X="11.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>GRT\ClassificationModules\DTW\DTW.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::DTWTemplate">
+    <Position X="13" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAgQAAAAACAEIAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GRT\ClassificationModules\DTW\DTW.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::RegisterClassifierModule&lt;T&gt;">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="GRT::Classifier" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.062" Y="0.5" />
+        <Point X="10.062" Y="0.421" />
+        <Point X="10.029" Y="0.421" />
+        <Point X="10.029" Y="0.26" />
+        <Point X="13.75" Y="0.26" />
+        <Point X="13.75" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GRT\CoreModules\Classifier.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::TrainingResultsObserverManager">
+    <Position X="11.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAA=</HashCode>
+      <FileName>GRT\CoreModules\MLBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GRT::TestResultsObserverManager">
+    <Position X="11.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GRT\CoreModules\MLBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

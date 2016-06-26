@@ -1,0 +1,7 @@
+Debug/
+x64/
+*.sdf
+*.suo
+*.opendb
+*angle.grt
+*hand.grt
